@@ -1,0 +1,458 @@
+[
+  {
+    "id": 1,
+    "title": "Vegetable Fried Rice",
+    "ingredients": [
+      "rice",
+      "egg",
+      "carrot",
+      "peas",
+      "soy sauce",
+      "garlic",
+      "green onion",
+      "oil"
+    ],
+    "diet_tags": [
+      "vegetarian"
+    ],
+    "allergen_tags": [
+      "egg",
+      "soy"
+    ],
+    "meal_type": "Dinner",
+    "cook_time": 20,
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=1200&q=80",
+    "instructions": [
+      "Heat oil in a pan and cook garlic briefly.",
+      "Add carrot and peas, then stir-fry until slightly softened.",
+      "Add rice and soy sauce, and mix well.",
+      "Push rice aside, scramble egg, then mix everything together.",
+      "Top with green onion and serve."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Chicken Broccoli Stir-Fry",
+    "ingredients": [
+      "chicken",
+      "broccoli",
+      "garlic",
+      "soy sauce",
+      "cornstarch",
+      "oil",
+      "ginger"
+    ],
+    "diet_tags": [
+      "high-protein"
+    ],
+    "allergen_tags": [
+      "soy"
+    ],
+    "meal_type": "Dinner",
+    "cook_time": 25,
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=1200&q=80",
+    "instructions": [
+      "Cook chicken in a hot pan until lightly browned.",
+      "Add garlic, ginger, and broccoli.",
+      "Pour in soy sauce mixture and cook until glossy.",
+      "Serve hot with rice if desired."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Vegan Tomato Pasta",
+    "ingredients": [
+      "pasta",
+      "tomato",
+      "garlic",
+      "olive oil",
+      "basil",
+      "onion"
+    ],
+    "diet_tags": [
+      "vegan"
+    ],
+    "allergen_tags": [
+      "gluten"
+    ],
+    "meal_type": "Dinner",
+    "cook_time": 18,
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=1200&q=80",
+    "instructions": [
+      "Cook pasta according to package directions.",
+      "Saute onion and garlic in olive oil.",
+      "Add tomato and simmer into a quick sauce.",
+      "Toss with pasta and basil, then serve."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Gluten-Free Chicken Lettuce Wraps",
+    "ingredients": [
+      "chicken",
+      "lettuce",
+      "carrot",
+      "garlic",
+      "ginger",
+      "tamari",
+      "green onion"
+    ],
+    "diet_tags": [
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergen_tags": [
+      "soy"
+    ],
+    "meal_type": "Lunch",
+    "cook_time": 20,
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=1200&q=80",
+    "instructions": [
+      "Cook chicken with garlic and ginger.",
+      "Add carrot and tamari, then stir until combined.",
+      "Spoon mixture into lettuce leaves.",
+      "Top with green onion and serve."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Oat Banana Pancakes",
+    "ingredients": [
+      "oats",
+      "banana",
+      "egg",
+      "milk",
+      "baking powder",
+      "cinnamon"
+    ],
+    "diet_tags": [
+      "vegetarian"
+    ],
+    "allergen_tags": [
+      "egg",
+      "dairy"
+    ],
+    "meal_type": "Breakfast",
+    "cook_time": 15,
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=1200&q=80",
+    "instructions": [
+      "Blend oats, banana, egg, milk, and baking powder.",
+      "Pour batter onto a hot pan.",
+      "Cook both sides until golden.",
+      "Serve with fruit or syrup."
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Chickpea Salad Bowl",
+    "ingredients": [
+      "chickpeas",
+      "cucumber",
+      "tomato",
+      "olive oil",
+      "lemon",
+      "lettuce",
+      "onion"
+    ],
+    "diet_tags": [
+      "vegan",
+      "gluten-free",
+      "dairy-free"
+    ],
+    "allergen_tags": [],
+    "meal_type": "Lunch",
+    "cook_time": 10,
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=1200&q=80",
+    "instructions": [
+      "Combine chickpeas and chopped vegetables in a bowl.",
+      "Dress with olive oil and lemon.",
+      "Toss gently and serve chilled or at room temperature."
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Tofu Vegetable Curry",
+    "ingredients": [
+      "tofu",
+      "coconut milk",
+      "curry paste",
+      "broccoli",
+      "carrot",
+      "onion",
+      "garlic"
+    ],
+    "diet_tags": [
+      "vegan",
+      "dairy-free"
+    ],
+    "allergen_tags": [
+      "soy"
+    ],
+    "meal_type": "Dinner",
+    "cook_time": 30,
+    "difficulty": "Medium",
+    "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&w=1200&q=80",
+    "instructions": [
+      "Cook onion and garlic until fragrant.",
+      "Add curry paste and stir briefly.",
+      "Add tofu, vegetables, and coconut milk.",
+      "Simmer until vegetables are tender and serve."
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Turkey Avocado Wrap",
+    "ingredients": [
+      "tortilla",
+      "turkey",
+      "avocado",
+      "lettuce",
+      "tomato",
+      "mustard"
+    ],
+    "diet_tags": [
+      "high-protein"
+    ],
+    "allergen_tags": [
+      "gluten"
+    ],
+    "meal_type": "Lunch",
+    "cook_time": 8,
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=1200&q=80",
+    "instructions": [
+      "Lay out tortilla and spread mustard.",
+      "Add turkey, avocado, lettuce, and tomato.",
+      "Roll tightly, slice, and serve."
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Greek Yogurt Berry Parfait",
+    "ingredients": [
+      "greek yogurt",
+      "strawberry",
+      "blueberry",
+      "granola",
+      "honey"
+    ],
+    "diet_tags": [
+      "vegetarian"
+    ],
+    "allergen_tags": [
+      "dairy",
+      "gluten"
+    ],
+    "meal_type": "Breakfast",
+    "cook_time": 5,
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=1200&q=80",
+    "instructions": [
+      "Layer greek yogurt, berries, and granola in a glass.",
+      "Drizzle honey over the top.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Salmon Rice Bowl",
+    "ingredients": [
+      "salmon",
+      "rice",
+      "cucumber",
+      "avocado",
+      "soy sauce",
+      "sesame",
+      "green onion"
+    ],
+    "diet_tags": [
+      "high-protein"
+    ],
+    "allergen_tags": [
+      "soy"
+    ],
+    "meal_type": "Dinner",
+    "cook_time": 25,
+    "difficulty": "Medium",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1200&q=80",
+    "instructions": [
+      "Cook salmon until flaky.",
+      "Arrange rice, cucumber, avocado, and salmon in a bowl.",
+      "Top with soy sauce, sesame, and green onion."
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Black Bean Quesadilla",
+    "ingredients": [
+      "tortilla",
+      "black beans",
+      "cheese",
+      "onion",
+      "bell pepper",
+      "oil"
+    ],
+    "diet_tags": [
+      "vegetarian"
+    ],
+    "allergen_tags": [
+      "dairy",
+      "gluten"
+    ],
+    "meal_type": "Lunch",
+    "cook_time": 15,
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1618040996337-56904b7850b9?auto=format&fit=crop&w=1200&q=80",
+    "instructions": [
+      "Cook onion and bell pepper until softened.",
+      "Fill tortilla with black beans, vegetables, and cheese.",
+      "Cook on both sides until crisp and melty.",
+      "Slice and serve."
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Peanut Noodles",
+    "ingredients": [
+      "noodles",
+      "peanut butter",
+      "soy sauce",
+      "garlic",
+      "carrot",
+      "green onion"
+    ],
+    "diet_tags": [
+      "vegetarian"
+    ],
+    "allergen_tags": [
+      "soy",
+      "nuts",
+      "gluten"
+    ],
+    "meal_type": "Dinner",
+    "cook_time": 20,
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1617093727343-374698b1b08d?auto=format&fit=crop&w=1200&q=80",
+    "instructions": [
+      "Cook noodles until tender.",
+      "Whisk peanut butter, soy sauce, and garlic into a quick sauce.",
+      "Toss noodles with sauce and vegetables.",
+      "Top with green onion."
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Avocado Toast",
+    "ingredients": [
+      "bread",
+      "avocado",
+      "lemon",
+      "salt",
+      "pepper",
+      "olive oil"
+    ],
+    "diet_tags": [
+      "vegan"
+    ],
+    "allergen_tags": [
+      "gluten"
+    ],
+    "meal_type": "Breakfast",
+    "cook_time": 7,
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1603046891744-1f76eb10aec1?auto=format&fit=crop&w=1200&q=80",
+    "instructions": [
+      "Toast the bread.",
+      "Mash avocado with lemon, salt, pepper, and olive oil.",
+      "Spread on toast and serve."
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Shrimp Tacos",
+    "ingredients": [
+      "shrimp",
+      "tortilla",
+      "cabbage",
+      "lime",
+      "garlic",
+      "yogurt",
+      "chili powder"
+    ],
+    "diet_tags": [],
+    "allergen_tags": [
+      "dairy",
+      "gluten",
+      "shellfish"
+    ],
+    "meal_type": "Dinner",
+    "cook_time": 20,
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1565299585323-38174c4a6471?auto=format&fit=crop&w=1200&q=80",
+    "instructions": [
+      "Season shrimp and cook until pink.",
+      "Mix yogurt and lime for a quick sauce.",
+      "Fill tortillas with cabbage and shrimp.",
+      "Top with sauce and serve."
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Tomato Mozzarella Sandwich",
+    "ingredients": [
+      "bread",
+      "tomato",
+      "mozzarella",
+      "basil",
+      "olive oil"
+    ],
+    "diet_tags": [
+      "vegetarian"
+    ],
+    "allergen_tags": [
+      "dairy",
+      "gluten"
+    ],
+    "meal_type": "Lunch",
+    "cook_time": 10,
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=1200&q=80",
+    "instructions": [
+      "Layer tomato, mozzarella, and basil on bread.",
+      "Drizzle with olive oil.",
+      "Close the sandwich and serve."
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Hummus Veggie Snack Box",
+    "ingredients": [
+      "hummus",
+      "carrot",
+      "cucumber",
+      "bell pepper",
+      "crackers"
+    ],
+    "diet_tags": [
+      "vegan"
+    ],
+    "allergen_tags": [
+      "gluten"
+    ],
+    "meal_type": "Snack",
+    "cook_time": 5,
+    "difficulty": "Easy",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1200&q=80",
+    "instructions": [
+      "Slice the vegetables into sticks.",
+      "Arrange hummus, vegetables, and crackers in a box or plate.",
+      "Serve immediately."
+    ]
+  }
+]
