@@ -391,7 +391,13 @@ def find_recipes(
     return filtered
 
 
-def render_recipe_card(recipe: Dict, favorite_ids: Set[str], logged_in: bool, user_id: Optional[int]) -> None:
+def render_recipe_card(
+    recipe: Dict,
+    favorite_ids: Set[str],
+    logged_in: bool,
+    user_id: Optional[int],
+    key_prefix: str,
+) -> None:
     with st.container(border=True):
         left, right = st.columns([1.0, 2.0])
 
@@ -419,11 +425,11 @@ def render_recipe_card(recipe: Dict, favorite_ids: Set[str], logged_in: bool, us
             with action_col1:
                 if logged_in and user_id is not None:
                     if recipe["id"] in favorite_ids:
-                        if st.button("Unsave", key=f"unsave_{recipe['id']}"):
+                        if st.button("Unsave", key=f"{key_prefix}_unsave_{recipe['id']}"):
                             remove_favorite(user_id, recipe["id"])
                             st.rerun()
                     else:
-                        if st.button("Save", key=f"save_{recipe['id']}"):
+                        if st.button("Save", key=f"{key_prefix}_save_{recipe['id']}"):
                             add_favorite(user_id, recipe["id"])
                             st.rerun()
                 else:
@@ -551,7 +557,12 @@ with tabs[0]:
         st.warning("No matching recipes found. Try fewer restrictions, a longer maximum cooking time, or more ingredients.")
     else:
         for recipe in results:
-            render_recipe_card(recipe, favorite_ids, st.session_state.logged_in, st.session_state.user_id)
+            render_recipe_card(recipe,
+                                favorite_ids,
+                                st.session_state.logged_in,
+                                st.session_state.user_id,
+                                key_prefix="results",
+                              )
 
 if st.session_state.logged_in:
     with tabs[1]:
@@ -561,7 +572,13 @@ if st.session_state.logged_in:
             for recipe in favorite_recipes:
                 favorite_scored = dict(recipe)
                 favorite_scored["matched"] = []
-                render_recipe_card(favorite_scored, favorite_ids, True, st.session_state.user_id)
+                render_recipe_card(
+                                    favorite_scored,
+                                    favorite_ids,
+                                    True,
+                                    st.session_state.user_id,
+                                    key_prefix="favorites",
+                                )
 
 st.markdown("---")
 st.markdown(
