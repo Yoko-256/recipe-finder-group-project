@@ -33,7 +33,7 @@ The app allows users to:
 
 ```text
 recipe-finder-group-project/
-├── TestStreamlit.py
-├── recipes.json
+├── CodeforStreamlit.py
+├── recipes_for_app.json
 ├── requirements.txt
 └── README.md
